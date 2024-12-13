@@ -1418,7 +1418,7 @@ No stipulation.
 
 ### 4.9.5 Time within which CA must process the revocation request
 
-Prior to 2025-03-15, for Section 4.9.5 of these Requirements, the CA SHALL adhere to these Requirements or Version 2.1.1 of the Baseline Requirements for TLS Server Certificates. Effective 2025-03-15, the CA SHALL adhere to these Requirements.
+Prior to 2025-04-15, for Section 4.9.5 of these Requirements, the CA SHALL adhere to these Requirements or Version 2.1.1 of the Baseline Requirements for TLS Server Certificates. Effective 2025-04-15, the CA SHALL adhere to these Requirements.
 
 Within 24 hours after receiving a Certificate Problem Report, the CA SHALL investigate the facts and circumstances related to the report and determine if it's "actionable."
 
@@ -1544,7 +1544,7 @@ Not applicable.
 
 ### 4.9.17 Authoritative certificate status
 
-Effective 2025-03-15, for a certificate to be considered revoked:
+Effective 2025-04-15, for a certificate to be considered revoked:
 1. If the CA publishes a CRL, the CRL containing the certificate serial number MUST have been published to the Repository and be available for consumption for Relying Parties; and
 2. If the certificate contains a HTTP URL of the Issuing CA's OCSP responder, at least one (1) OCSP response containing a `certStatus` value of `revoked` MUST have been published to the Repository and be available for consumption for Relying Parties;
 
